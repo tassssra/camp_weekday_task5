@@ -1,7 +1,7 @@
 <p>
 あなたの誕生日は<%= @year %>年<%= @month %>月<%= @day %>日です。
-<% if @today_is_birthday %>
-  今日があなたの誕生日です。
+<% if @is_birthday %>
+  <%= "今日があなたの誕生日です。" %>
 <% end %>
 </p>
 <p>あなたの星座は<%= @zodiac_sign %>座です。</p>

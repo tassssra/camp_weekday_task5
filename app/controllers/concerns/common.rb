@@ -38,7 +38,7 @@ module Common
   end
 
   # 今日が誕生日ならtrueを返す
-  def is_today_birthday?(birthday)
+  def birthday?(birthday)
     Date.today.strftime("%m%d") == birthday[4, 4]
   end
 end
