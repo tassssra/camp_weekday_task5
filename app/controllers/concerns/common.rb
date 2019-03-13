@@ -3,6 +3,7 @@ module Common
   # 月と日を渡すと星座を返す
   def decide_zodiac_sign(month, day)
     month_day = (month + day).to_i
+
     if month_day.between?(120, 218)
       '水瓶'
     elsif month_day.between?(219, 320)
