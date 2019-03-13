@@ -1,6 +1,5 @@
 class FortunetellingsController < ApplicationController
   include FortunetellingsHelper, Common
-
   def show
     @birthday = params[:birthday]
     @year = @birthday[0, 4]
