@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'fortunetellings/:birthday' => 'fortunetellings#show'
+  get 'fortunetelling/:birthday' => 'fortunetellings#show'
 end
